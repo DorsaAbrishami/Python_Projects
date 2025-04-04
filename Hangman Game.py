@@ -19,10 +19,10 @@ for letter in chosen_word:
     else:
         print("Wrong")
 
-display = ""
-for i in chosen_word:
-    if i == guess:
-        display += guess
-    else:
-        display += "_"
-print(display)
+# display = ""
+# for i in chosen_word:
+#     if i == guess:
+#         display += guess
+#     else:
+#         display += "_"
+# print(display)
