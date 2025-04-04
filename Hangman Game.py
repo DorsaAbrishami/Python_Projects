@@ -13,11 +13,11 @@ guess = input("Guess a letter: ").lower()
 
 # TODO-2: Create a "display" that puts the guess letter in the right positions and _ in the rest of the string.
 
-# for letter in chosen_word:
-#     if letter == guess:
-#         print("Right")
-#     else:
-#         print("Wrong")
+for letter in chosen_word:
+    if letter == guess:
+        print("Right")
+    else:
+        print("Wrong")
 
 display = ""
 for i in chosen_word:
